@@ -14,7 +14,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if message.content.startsWith("$") {
+    if (message.content === 'ping') {
 
        message.reply('pong');
 
