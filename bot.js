@@ -14,11 +14,11 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.content.startsWith(`${prefix}ping`)) {
+    if (message.content.startsWith(`${$}ping`)) {
 
        message.channel.send('pong');
      
-    }else if (message.cntent.startsWith(`${prefix}beep`)) {
+    }else if (message.cntent.startsWith(`${$}beep`)) {
      
        message.channel.send('boop');
 
